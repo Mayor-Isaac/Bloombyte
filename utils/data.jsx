@@ -1,0 +1,1 @@
+export const MeunLinks = ["Home", "About Us", "Our Services", "Code4kidz", "Pricing Plan", "Contact"]
