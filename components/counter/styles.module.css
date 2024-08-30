@@ -1,19 +1,17 @@
 .firstCount {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
 }
 
 .firstCount h1 {
-    font-family: "outfit", sans-serif;
-    font-size: 55px;
-    color: #3e69b9;
+  font-size: 55px;
+  color: #3e69b9;
 }
 
 .firstCount h2 {
-    font-family: "outfit", sans-serif;
-    font-size: 20px;
-    color: #222;
-    font-weight: 400;
+  font-size: 20px;
+  color: #222;
+  font-weight: 400;
 }

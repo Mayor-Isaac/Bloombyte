@@ -1,66 +1,68 @@
+.pageContain {
+  background-color: #f5f5f5;
+}
+
 .growthContain {
-    /* background-color: red; */
-    width: 85%;
-    align-items: center;
-    margin: auto;
-    display: flex;
-    gap: 40px;
-    padding: 100px 0px;
+  width: 70%;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  padding: 100px 0px;
 }
 
 .growthText {
-    padding-top: 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 50%;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 90%;
 }
 
 .growthText h1 {
-    font-family: "Outfit", sans-serif;
-    font-size: 50px;
-    color: rgb(50, 82, 170);
+  font-size: 50px;
+  color: rgb(50, 82, 170);
 }
 
 .growthText p {
-    color: #646464;
-    font-family: "Outfit", sans-serif;
-    font-size: 19px;
+  color: #646464;
+  font-size: 19px;
+  width: 80%;
 }
 
 .growthImg {
-    width: 50%
+  width: 40%;
 }
 
 .growthImg img {
-    width: 100%;
-    border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
 }
 
 .growthBtn {
-    width: 200px;
-    text-align: center;
-    padding: 15px 30px;
-    font-family: "Outfit", sans-serif;
-    background-color: rgb(80, 130, 221);
-    color: #ffffff;
-    border: 0px;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
+  width: 200px;
+  text-align: center;
+  padding: 15px 30px;
+  font-family: unset;
+  background-color: rgb(80, 130, 221);
+  color: #ffffff;
+  border: 0px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .counter {
-    width: 70%;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    padding: 40px 0px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  padding: 10px 0px;
 }
 
-
 .count1 {
-    display: flex;
-    gap: 20px;
-    align-items: center;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }

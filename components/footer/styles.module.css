@@ -1,112 +1,106 @@
 .footerContainer {
-    background-color: #273961;
-    width: 100%;
-    padding: 80px 100px;
-    display: flex;
-    justify-content: space-between;
+  background-color: #273961;
+  width: 100%;
+  padding: 80px 100px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footerIcons {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 25%;
 }
 
 .footerIcons h1 {
-    font-family: "outfit", sans-serif;
-    font-size: 30px;
-    color: #fff;
+  font-size: 30px;
+  color: #fff;
 }
 
 .footIcons {
-    display: flex;
-    gap: 20px;
-    cursor: pointer;
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
 }
 
 .footerContact {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 50%;
 }
 
 .footerContact h1 {
-    font-size: 30px;
-    font-family: "outfit", sans-serif;
-    color: #fff;
+  font-size: 30px;
+  color: #fff;
 }
 
 .contactOne {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .contactOne p {
-    font-size: 18px;
-    font-family: "outfit", sans-serif;
-    color: #fff;
-    width: 70%;
+  font-size: 18px;
+  color: #fff;
+  width: 70%;
 }
 
 .footerSubscribe {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    width: 25%
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 25%;
 }
 
 .footerSubscribe h1 {
-    font-size: 30px;
-    color: #fff;
-    font-family: "outfit", sans-serif;
+  font-size: 30px;
+  color: #fff;
 }
 
 .footerSubscribe p {
-    font-size: 18px;
-    font-family: "outfit", sans-serif;
-    color: #fff;
+  font-size: 18px;
+  color: #fff;
 }
 
 .mailInput {
-    width: 100%;
-    padding: 10px 10px;
-    outline: none;
-    font-family: "outfit", sans-serif;
-    color: #333332;
-    font-size: 17px;
-    border: 0px;
-    border-radius: 4px;
+  width: 100%;
+  padding: 10px 10px;
+  outline: none;
+  font-family: unset;
+  color: #333332;
+  font-size: 17px;
+  border: 0px;
+  border-radius: 4px;
 }
 
 .inputbtn button {
-    background-color: transparent;
-    padding: 10px 30px;
-    border: 1px solid #fff;
-    color: #fff;
-    font-family: "outfit", sans-serif;
-    font-size: 16px;
-    margin: 20px 0px;
-    border-radius: 4px;
-    cursor: pointer;
+  background-color: transparent;
+  padding: 10px 30px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: unset;
+  font-size: 16px;
+  margin: 20px 0px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .inputbtn button:hover {
-    background-color: #fff;
-    color: #122582;
+  background-color: #fff;
+  color: #122582;
 }
 
 .copyright {
-    padding: 30px;
-    background-color: #fff;
+  padding: 30px;
+  background-color: #fff;
 }
 
 .copyright p {
-    color: #122582;
-    font-size: 20px;
-    font-family: "outfit", sans-serif;
-    text-align: center;
-    font-weight: 500;
+  color: #122582;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
 }

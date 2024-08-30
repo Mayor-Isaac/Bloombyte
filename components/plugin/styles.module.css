@@ -1,45 +1,43 @@
 .pluginContain {
-    background-image: url("../../public/images/background.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #8b4d07;
-    padding: 100px 80px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 60px;
+  background-image: url("../../public/images/background.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .pluginContain h5 {
-    text-align: center;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .pluginContain h1 {
-    text-align: center;
-    font-size: 50px;
-    color: #ffffff;
+  text-align: center;
+  font-size: 50px;
+  color: #ffffff;
 }
 
 .pluginContain button {
-    width: 200px;
-    padding: 15px 30px;
-    color: #ffffff;
-    background-color: transparent;
-    border: 1px solid #ffffff;
-    box-sizing: border-box;
-    border-radius: 4px;
-    font-size: 18px;
-    margin: auto;
-    cursor: pointer;
+  width: 200px;
+  padding: 15px 30px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 18px;
+  margin: auto;
+  cursor: pointer;
+  font-family: unset;
 }
 
 .pluginContain button:hover {
-    background-color: rgb(80, 130, 221);
-    color: #ffffff;
-    font-weight: 600;
-    border: 1px solid rgb(80, 130, 221);
+  background-color: rgb(80, 130, 221);
+  color: #ffffff;
+  border: 1px solid rgb(80, 130, 221);
 }

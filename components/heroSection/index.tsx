@@ -20,14 +20,14 @@ const HeroSection = () => {
   const slides = [
     {
       id: 1,
-      bgImage: "./images/bg1.png",
+      bgImage: "./images/background001.png",
       text: "Creative and Innovative Workspace",
       body: "Innovation Juction: Where Tech Ideas Coverage",
       button: "Learn More",
     },
     {
       id: 2,
-      bgImage: "./images/bg2.png",
+      bgImage: "./images/background002.png",
       text: "Fostering Development",
       body: "Transforming Technology Byte by Byte",
       button: "Contact Us",
