@@ -1,0 +1,23 @@
+.teamContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 100px;
+    gap: 32px;
+}
+
+.teamContainer h2 {
+    font-size: 40px;
+    line-height: 100%;
+    font-weight: 700;
+}
+
+.teamContainer>div {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

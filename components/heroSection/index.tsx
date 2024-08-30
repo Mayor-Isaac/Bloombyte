@@ -1,61 +1,60 @@
+"use client";
 import React from "react";
 import styles from "./styles.module.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./slider.css";
+import { BackgroudStyled } from "@/styles/slider-style";
 
 const HeroSection = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-      };
-    
-      const slides = [
-        {
-          id: 1,
-          bgImage: "url1.jpg",
-          text: "Creative and Innovative Workspace",
-          body: "Innovation Juction: Where Tech Ideas Coverage",
-          button: "Learn More",
-        },
-        {
-          id: 2,
-          bgImage: "url2.jpg",
-          text: "Fostering Development",
-          body: "Transforming Technology Byte by Byte",
-          button: "Contact Us",
-        },
-        {
-          id: 3,
-          bgImage: "url3.jpg",
-          text: "Colaborative Workspace",
-          body: "A Hub For Tech Brillance, Where Minds Flourish",
-          button: "Book A space",
-        },
-      ];
-    
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  };
+
+  const slides = [
+    {
+      id: 1,
+      bgImage: "./images/bg1.png",
+      text: "Creative and Innovative Workspace",
+      body: "Innovation Juction: Where Tech Ideas Coverage",
+      button: "Learn More",
+    },
+    {
+      id: 2,
+      bgImage: "./images/bg2.png",
+      text: "Fostering Development",
+      body: "Transforming Technology Byte by Byte",
+      button: "Contact Us",
+    },
+    {
+      id: 3,
+      bgImage: "./images/bg3.png",
+      text: "Colaborative Workspace",
+      body: "A Hub For Tech Brillance, Where Minds Flourish",
+      button: "Book A space",
+    },
+  ];
+
   return (
     <Slider {...settings}>
-    {slides.map((slide) => (
-      <>
-        <div key={slide.id} className={`${styles.slide} ${styles[`slide-${slide.id}`]}`}>
-          <div className={styles.slidercontent}>
-            <h2>{slide.text}</h2>
-            <p>{slide.body}</p>
-            <button>
-              <p>{slide.button}</p>
-            </button>
-          </div>
-        </div>
-      </>
-    ))}
-  </Slider>
+      {slides?.map((slide) => {
+        return (
+          <BackgroudStyled img={slide.bgImage} key={slide.id}>
+            <div className={styles.slidercontent}>
+              <h2>{slide.text}</h2>
+              <p>{slide.body}</p>
+              <button>{slide.button}</button>
+            </div>
+          </BackgroudStyled>
+        );
+      })}
+    </Slider>
   );
 };
 

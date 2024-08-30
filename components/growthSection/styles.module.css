@@ -1,0 +1,66 @@
+.growthContain {
+    /* background-color: red; */
+    width: 85%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    padding: 100px 0px;
+}
+
+.growthText {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.growthText h1 {
+    font-family: "Outfit", sans-serif;
+    font-size: 50px;
+    color: rgb(50, 82, 170);
+}
+
+.growthText p {
+    color: #646464;
+    font-family: "Outfit", sans-serif;
+    font-size: 19px;
+}
+
+.growthImg {
+    width: 50%
+}
+
+.growthImg img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.growthBtn {
+    width: 200px;
+    text-align: center;
+    padding: 15px 30px;
+    font-family: "Outfit", sans-serif;
+    background-color: rgb(80, 130, 221);
+    color: #ffffff;
+    border: 0px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.counter {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px;
+}
+
+
+.count1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
