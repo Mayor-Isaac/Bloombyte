@@ -1,0 +1,19 @@
+.heroContain {
+  background-color: #f5f5f5;
+  padding: 100px 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.heroContain h1 {
+  font-size: 60px;
+  color: #5082dd;
+}
+
+.linkText {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #5082dd;
+}
