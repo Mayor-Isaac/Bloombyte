@@ -45,3 +45,26 @@ export const teamMembers = [
     img: "/images/user.jpg",
   },
 ];
+
+export const aboutBloom = [
+  {
+    head: "01",
+    text: "Train people on various software and hardware skills",
+  },
+  {
+    head: "02",
+    text: "Initiate programs and services to help people develop soft skills, build character and Leadership skills,",
+  },
+  {
+    head: "03",
+    text: "Create a conducive environment for learning and development.",
+  },
+  {
+    head: "04",
+    text: "Create a motivating work environment to attract skilled talent and inspire people to reach the next level, no matter their industry.",
+  },
+  {
+    head: "05",
+    text: "Organise workshops for organisations, businesses, and government establishments.",
+  },
+];
