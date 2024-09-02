@@ -1,10 +1,29 @@
-export const MeunLinks = [
-  "Home",
-  "About Us",
-  "Our Services",
-  "Code4kidz",
-  "Pricing Plan",
-  "Contact",
+export const menuLinks = [
+  {
+    title: "Home",
+    link: "/",
+  },
+  {
+    title: "About Us",
+    link: "/about",
+  },
+  {
+    title: "Our Services",
+    link: "/services",
+  },
+
+  {
+    title: "Code4kidz",
+    link: "/code4kidz",
+  },
+  {
+    title: "Pricing Plan",
+    link: "/pricing",
+  },
+  {
+    title: "Contact",
+    link: "/contact",
+  },
 ];
 export const teamMembers = [
   {

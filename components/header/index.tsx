@@ -1,6 +1,7 @@
 import React from "react";
-import styles from "./styles.module.css"
-import {MeunLinks} from "../../utils/data"
+import styles from "./styles.module.css";
+import { menuLinks } from "../../utils/data";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -9,11 +10,13 @@ const Header = () => {
         <h2>BloomByte</h2>
       </div>
       <div className={styles.meunLinks}>
-      {MeunLinks?.map((item, index) => {
-        return(
-          <p key={index}>{item}</p>
-        )
-      })}
+        {menuLinks?.map((item, index) => {
+          return (
+            <Link href={item.link} key={index}>
+              {item.title}
+            </Link>
+          );
+        })}
       </div>
       <div className={styles.headBtn}>
         <button>Book A Workspace</button>
