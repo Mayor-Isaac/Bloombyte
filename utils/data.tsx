@@ -91,3 +91,41 @@ export const services = [
     text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit earum rem amet blanditiis omnis, sit ut, ipsa itaque, eligendi sint dignissimos ullam quasi mollitia perferendis nihil quidem commodi delectus facilis cupiditate? Labore enim deserunt, aperiam aut voluptate qui harum dolor magni ducimus earum fuga culpa sed dignissimos suscipit, dolore nostrum dolores nulla facilis fugit adipisci assumenda vero nobis optio! Et incidunt voluptas fugit qui consectetur facilis aperiam, dicta, optio, soluta nam maiores ullam ipsam doloribus sapiente error neque maxime sint porro nesciunt quia? Et voluptatibus, quisquam accusamus natus tempore in consectetur consequuntur aspernatur. Cupiditate provident facere qui, at velit enim.",
   },
 ];
+
+export const pricingData = [
+  {
+    title: "Regular Room",
+    daily: 800,
+    weekdays: 3000,
+    monthly: 10000,
+    weekends: 1600,
+  },
+  {
+    title: "VIP Room",
+    daily: 1000,
+    weekdays: 4000,
+    monthly: 12000,
+    weekends: 2500,
+  },
+  {
+    title: "Workstation",
+    daily: 1300,
+    weekdays: 5000,
+    monthly: 12000,
+    weekends: 2600,
+  },
+  {
+    title: "Hardware",
+    daily: 1300,
+    weekdays: 5000,
+    monthly: 12000,
+    weekends: 2600,
+  },
+  {
+    title: "Content Creation",
+    daily: 1300,
+    weekdays: 5000,
+    monthly: 12000,
+    weekends: 2600,
+  },
+];
