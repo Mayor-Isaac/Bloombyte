@@ -1,0 +1,55 @@
+.pgContain {
+  padding: 60px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  background-color: #f5f5f5;
+}
+
+.even {
+  display: flex;
+  background-color: #fff;
+  padding: 40px;
+  gap: 40px;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  box-shadow: 0px 1px 3px 1px #00000026, 0px 1px 2px 0px #0000004d;
+}
+
+.odd {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 40px;
+  width: 80%;
+  background-color: #0044ad;
+  color: #fff;
+  padding: 40px;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  box-shadow: 0px 1px 3px 1px #00000026, 0px 1px 2px 0px #0000004d;
+}
+
+.imgTab {
+  border-radius: 10px;
+}
+
+.col2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.col2 h2 {
+  font-size: 40px;
+}
+
+.col2 p {
+  font-size: 18px;
+  line-height: 1.7;
+}

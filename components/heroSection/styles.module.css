@@ -19,7 +19,7 @@
 .slidercontent button {
   padding: 15px 50px;
   display: flex;
-  background-color: rgb(80, 130, 221);
+  background-color: #0044ad;
   color: #ffffff;
   border: 0px;
   flex-direction: column;

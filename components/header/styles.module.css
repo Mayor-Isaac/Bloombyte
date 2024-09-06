@@ -1,45 +1,45 @@
 .headContain {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 80px;
-    border-bottom: 1px solid #5082dd;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  border-bottom: 1px solid #707070;
 }
 
 .logo h2 {
-    font-size: 30px;
-    color: #5082dd;
-    cursor: pointer;
+  font-size: 30px;
+  color: #0044ad;
+  cursor: pointer;
 }
 
 .meunLinks {
-    display: flex;
-    gap: 30px;
-    cursor: pointer;
-    align-items: center;
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+  align-items: center;
 }
 
 .meunLinks a {
-    padding: 10px;
-    font-size: 18px;
-    text-decoration: none;
-    color: #000000
+  padding: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000000;
 }
 
 .meunLinks a:hover {
-    background-color: #5082dd;
-    color: #fff;
-    border-radius: 4px;
+  background-color: #0044ad;
+  color: #fff;
+  border-radius: 4px;
 }
 
 .headBtn button {
-    background-color: #5082dd;
-    color: #fff;
-    padding: 15px 20px;
-    border: 0px;
-    border-radius: 4px;
-    font-size: 14px;
-    font-family: unset;
-    cursor: pointer;
+  background-color: #0044ad;
+  color: #fff;
+  padding: 15px 20px;
+  border: 0px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: unset;
+  cursor: pointer;
 }

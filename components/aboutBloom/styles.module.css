@@ -14,6 +14,7 @@
 .contain h2 {
   text-align: center;
   font-size: 40px;
+  color: #0044ad;
 }
 
 .contain p {
@@ -79,11 +80,12 @@
 
 .textBtn {
   padding: 15px 30px;
-  background-color: #5082dd;
+  background-color: #0044ad;
   color: #fff;
   border: 0px;
   border-radius: 4px;
   font-size: 18px;
   font-family: unset;
   width: 30%;
+  cursor: pointer;
 }
