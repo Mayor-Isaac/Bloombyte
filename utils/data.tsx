@@ -68,3 +68,41 @@ export const aboutBloom = [
     text: "Organise workshops for organisations, businesses, and government establishments.",
   },
 ];
+
+export const pricingData = [
+  {
+    title: "Regular Room",
+    daily: 800,
+    weekdays: 3000,
+    monthly: 10000,
+    weekends: 1600,
+  },
+  {
+    title: "VIP Room",
+    daily: 1000,
+    weekdays: 4000,
+    monthly: 12000,
+    weekends: 2500,
+  },
+  {
+    title: "Workstation",
+    daily: 1300,
+    weekdays: 5000,
+    monthly: 12000,
+    weekends: 2600,
+  },
+  {
+    title: "Hardware",
+    daily: 1300,
+    weekdays: 5000,
+    monthly: 12000,
+    weekends: 2600,
+  },
+  {
+    title: "Content Creation",
+    daily: 1300,
+    weekdays: 5000,
+    monthly: 12000,
+    weekends: 2600,
+  },
+];

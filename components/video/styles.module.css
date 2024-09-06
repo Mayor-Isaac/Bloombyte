@@ -1,0 +1,7 @@
+.video {
+    margin: 0px auto;
+}
+
+.video iframe {
+    border-radius: 20px;
+}

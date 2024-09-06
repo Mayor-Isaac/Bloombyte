@@ -1,0 +1,71 @@
+.pricingPlanContainer {
+    padding: 40px 36px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    width: 65%;
+    margin: 32px auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 24px;
+    row-gap: 40px;
+    column-gap: 40px;
+}
+
+.pricingPlanSingle {
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px #0000004D,
+        0px 8px 12px 6px #00000026;
+    border-radius: 24px;
+    padding: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+    height: 350px;
+}
+
+.pricingPlanSingle div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.pricingPlanSingle>h2 {
+    color: #0044AD;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 41px;
+    letter-spacing: 0.37400001287460327px;
+    text-align: left;
+}
+
+.pricingPlanSingle div p {
+    color: #797676;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+}
+
+.pricingPlanSingle div p span {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.pricingPlanSingle button {
+    width: 100%;
+    background: #0044AD;
+    border-radius: 100px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.10000000149011612px;
+    padding: 14px 0px;
+    border: none;
+}
