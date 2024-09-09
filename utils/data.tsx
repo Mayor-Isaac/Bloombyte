@@ -73,22 +73,31 @@ export const services = [
   {
     image: "/images/growth.png",
     title: "Co-Working Space",
-    text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit earum rem amet blanditiis omnis, sit ut, ipsa itaque, eligendi sint dignissimos ullam quasi mollitia perferendis nihil quidem commodi delectus facilis cupiditate? Labore enim deserunt, aperiam aut voluptate qui harum dolor magni ducimus earum fuga culpa sed dignissimos suscipit, dolore nostrum dolores nulla facilis fugit adipisci assumenda vero nobis optio! Et incidunt voluptas fugit qui consectetur facilis aperiam, dicta, optio, soluta nam maiores ullam ipsam doloribus sapiente error neque maxime sint porro nesciunt quia? Et voluptatibus, quisquam accusamus natus tempore in consectetur consequuntur aspernatur. Cupiditate provident facere qui, at velit enim.",
+    textOne: "Tech pros and even newcomers, such as developers and designers, can work together in the coworking space Bloombyte Hub.",
+    textTwo:" Some benefits and advantages of our co-working space include:",
+    textThree : ["- Networking Opportunities: People get to connect, collaborate, and share ideas with one another, which can lead to new projects, partnerships, or business ventures","- Resource Sharing: Startups  benefit from shared resources, such as office equipment and administrative support, which might be cost-prohibitive if they were to set up their own spaces.", "- Community and Collaboration: Bloombyte Hub co-working space often host events, workshops, and meetups that can help tech professionals stay updated on industry trends, learn new skills,"]
   },
   {
     image: "/images/content.png",
     title: "Content Creation Space",
-    text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit earum rem amet blanditiis omnis, sit ut, ipsa itaque, eligendi sint dignissimos ullam quasi mollitia perferendis nihil quidem commodi delectus facilis cupiditate? Labore enim deserunt, aperiam aut voluptate qui harum dolor magni ducimus earum fuga culpa sed dignissimos suscipit, dolore nostrum dolores nulla facilis fugit adipisci assumenda vero nobis optio! Et incidunt voluptas fugit qui consectetur facilis aperiam, dicta, optio, soluta nam maiores ullam ipsam doloribus sapiente error neque maxime sint porro nesciunt quia? Et voluptatibus, quisquam accusamus natus tempore in consectetur consequuntur aspernatur. Cupiditate provident facere qui, at velit enim.",
+    textOne: "Bloombyte Hub content creation area is furnished with the equipment and resources required to produce high-caliber material ",
+    textTwo: "Our content creation area also fosters teamwork, which frequently results in collaborative spaces where tech professionals, novices, and creators may collaborate on projects, exchange knowledge, and generate fresh concepts. and some of our equipments are: ",
+    textThree: ["- Studio Equipment: green screens, cameras, lighting, and microphones for video production.",
+     "- Audio equipment: mixing consoles, soundproofing, and top-notch microphones for voice-over and podcasting.", "- Editing Software: Computers equipped with graphic design, audio editing, and video editing software,"]
   },
   {
     image: "/images/digitalSkill.png",
     title: "Digital Skills Training",
-    text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit earum rem amet blanditiis omnis, sit ut, ipsa itaque, eligendi sint dignissimos ullam quasi mollitia perferendis nihil quidem commodi delectus facilis cupiditate? Labore enim deserunt, aperiam aut voluptate qui harum dolor magni ducimus earum fuga culpa sed dignissimos suscipit, dolore nostrum dolores nulla facilis fugit adipisci assumenda vero nobis optio! Et incidunt voluptas fugit qui consectetur facilis aperiam, dicta, optio, soluta nam maiores ullam ipsam doloribus sapiente error neque maxime sint porro nesciunt quia? Et voluptatibus, quisquam accusamus natus tempore in consectetur consequuntur aspernatur. Cupiditate provident facere qui, at velit enim.",
+    textOne: "Here at Bloombyte hub, we offer a variety of digital skills training ",
+    textTwo: "We teach Design skills like graphics design by making use of adobe photoshop, CorelDraw" ,
+    textThree: ["- Basic Computer Skills: Teaching how to use operating systems, software applications, and internet browsing.", "- Software Proficiency: Training in specific software programs like Microsoft Office, Google Workspace, or industry-specific tools.", "- Data Management: Understanding how to handle data, including data entry, analysis, and basic database management.", "- Programming and Coding: For more advanced training, this includes learning programming languages and development tools.", ]
   },
   {
     image: "/images/hardware.png",
     title: "Hardware Workshop",
-    text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit earum rem amet blanditiis omnis, sit ut, ipsa itaque, eligendi sint dignissimos ullam quasi mollitia perferendis nihil quidem commodi delectus facilis cupiditate? Labore enim deserunt, aperiam aut voluptate qui harum dolor magni ducimus earum fuga culpa sed dignissimos suscipit, dolore nostrum dolores nulla facilis fugit adipisci assumenda vero nobis optio! Et incidunt voluptas fugit qui consectetur facilis aperiam, dicta, optio, soluta nam maiores ullam ipsam doloribus sapiente error neque maxime sint porro nesciunt quia? Et voluptatibus, quisquam accusamus natus tempore in consectetur consequuntur aspernatur. Cupiditate provident facere qui, at velit enim.",
+    textOne: "At our hardware workshop, we offer the following services:",
+    textTwo: "Building and developing hardware equipments like drones",
+    textThree: ["- Prototyping: Developing and testing physical prototypes of new tech products, devices, or components.", "- Repair and Maintenance: Fixing and maintaining electronic hardware, which can be crucial for keeping tech infrastructure in working order.", "- Learning and Training: Offering educational opportunities for individuals to learn about hardware design, electronics, and related skills.", "- Innovation and Experimentation: Allowing for experimentation with new ideas and technologies, often facilitating innovation by providing access to advanced tools and materials.", "- Collaboration: Serving as a collaborative space where engineers, developers, and other tech professionals can work together on hardware projects.", ]
   },
 ];
 
