@@ -17,3 +17,8 @@
   cursor: pointer;
   color: #0044ad;
 }
+
+.link {
+  text-decoration: none;
+  color: #000;
+}

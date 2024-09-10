@@ -1,0 +1,86 @@
+.pageContainer {
+  padding: 80px 150px;
+}
+
+.tabContain {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.colOne {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.colOne h2 {
+  font-size: 40px;
+}
+
+.colOne p {
+  font-size: 17px;
+  line-height: 1.7;
+  width: 80%;
+}
+
+.colOne button {
+  width: 20%;
+  padding: 15px 30px;
+  background-color: #0044ad;
+  border: 0px;
+  color: #fff;
+  font-family: unset;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #0044ad;
+  cursor: pointer;
+}
+
+.colOne button:hover {
+  background-color: transparent;
+  border: 1px solid #0044ad;
+  color: #222;
+  transition: all 0.5s ease;
+}
+
+.img {
+  border-radius: 20px;
+}
+
+.container {
+  padding: 80px 0px;
+}
+
+.container h2 {
+  font-size: 40px;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.tab2Contain {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  gap: 40px;
+}
+
+.tabGrid {
+  background-color: #5081dd25;
+  padding: 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tabGrid h2 {
+  font-size: 25px;
+  text-align: left;
+  padding: 0px;
+}
+
+.tabGrid p {
+  font-size: 16px;
+  line-height: 1.6;
+}

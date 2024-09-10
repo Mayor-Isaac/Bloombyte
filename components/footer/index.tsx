@@ -5,6 +5,7 @@ import Linkedln from "@/svgs/linkedln";
 import Location from "@/svgs/location";
 import Gmail from "@/svgs/gmail";
 import Phone from "@/svgs/phone";
+import Whatsapp from "@/svgs/whatsapp";
 
 const Footer = () => {
   return (
@@ -23,7 +24,10 @@ const Footer = () => {
           <h1>Contact Us</h1>
           <div className={styles.contactOne}>
             <Location />
-            <p>After Bridge, B11 Akaraki/Falowo Layout, Aule Rd, Opposite Cele Junction, Off New Aule Road, Akure</p>
+            <p>
+              After Bridge, B11 Akaraki/Falowo Layout, Aule Rd, Opposite Cele
+              Junction, Off New Aule Road, Akure
+            </p>
           </div>
           <div className={styles.contactOne}>
             <Gmail />
@@ -33,6 +37,10 @@ const Footer = () => {
             <Phone />
             <p>0812 396 0422</p>
           </div>
+          <div className={styles.contactOne}>
+            <Whatsapp />
+            <p>0812 396 0422</p>
+          </div>
         </div>
         <div className={styles.footerSubscribe}>
           <div className={styles.subText}>
@@ -40,7 +48,11 @@ const Footer = () => {
             <p>Don’t miss our future updates! Get Subscribed Today!</p>
           </div>
           <div className={styles.inputTab}>
-            <input type="email" className={styles.mailInput} placeholder="Email Address" />
+            <input
+              type="email"
+              className={styles.mailInput}
+              placeholder="Email Address"
+            />
             <div className={styles.inputbtn}>
               <button>Subscribe</button>
             </div>
