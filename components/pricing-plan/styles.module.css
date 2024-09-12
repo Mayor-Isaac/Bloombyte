@@ -23,7 +23,7 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 32px;
-  height: 350px;
+  /* height: 350px; */
 }
 
 .pricingPlanSingle div {
@@ -32,7 +32,7 @@
   gap: 24px;
 }
 
-.pricingPlanSingle > h2 {
+.pricingPlanSingle>h2 {
   color: #0044ad;
   font-size: 30px;
   font-weight: 600;

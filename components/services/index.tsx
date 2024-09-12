@@ -8,23 +8,21 @@ const ServicesTab = () => {
     <div className={styles.pgContain}>
       {services?.map((item, index) => {
         return (
-          <div
-            className={index % 2 === 0 ? styles.even : styles.odd}
-            key={index}
-          >
-            <Image
-              src={item.image}
-              alt="image"
-              width={500}
-              height={600}
-              className={styles.imgTab}
-            />
+          <div className={index % 2 === 0 ? styles.even : styles.odd} key={index}>
+            <Image src={item.image} alt="image" width={500} height={600} className={styles.imgTab} />
             <div className={styles.col2}>
               <h2>{item.title}</h2>
               <p>{item.textOne}</p>
               <p>{item.textTwo}</p>
               {item.textThree?.map((item, index) => {
-                return <p key={index}>{item}</p>;
+                return (
+                  <div className={styles.servicesText} key={index}>
+                    <div></div>
+                    <p>
+                      <span>{item.title}</span> {item.text}
+                    </p>
+                  </div>
+                );
               })}
             </div>
           </div>

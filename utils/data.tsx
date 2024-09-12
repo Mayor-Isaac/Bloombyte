@@ -77,40 +77,66 @@ export const services = [
   {
     image: "/images/growth.png",
     title: "Co-Working Space",
-    textOne:
-      "Tech pros and even newcomers, such as developers and designers, can work together in the coworking space Bloombyte Hub.",
+    textOne: "Tech pros and even newcomers, such as developers and designers, can work together in the coworking space Bloombyte Hub.",
     textTwo: " Some benefits and advantages of our co-working space include:",
     textThree: [
-      "- Networking Opportunities: People get to connect, collaborate, and share ideas with one another, which can lead to new projects, partnerships, or business ventures",
-      "- Resource Sharing: Startups  benefit from shared resources, such as office equipment and administrative support, which might be cost-prohibitive if they were to set up their own spaces.",
-      "- Community and Collaboration: Bloombyte Hub co-working space often host events, workshops, and meetups that can help tech professionals stay updated on industry trends, learn new skills,",
+      {
+        title: "Networking Opportunities:",
+        text: " People get to connect, collaborate, and share ideas with one another, which can lead to new projects, partnerships, or business ventures",
+      },
+      {
+        title: "Resource Sharing:",
+        text: " Startups  benefit from shared resources, such as office equipment and administrative support, which might be cost-prohibitive if they were to set up their own spaces.",
+      },
+      {
+        title: "Community and Collaboration:",
+        text: " Bloombyte Hub co-working space often host events, workshops, and meetups that can help tech professionals stay updated on industry trends, learn new skills,",
+      },
     ],
   },
   {
     image: "/images/content.png",
     title: "Content Creation Space",
-    textOne:
-      "Bloombyte Hub content creation area is furnished with the equipment and resources required to produce high-caliber material ",
+    textOne: "Bloombyte Hub content creation area is furnished with the equipment and resources required to produce high-caliber material ",
     textTwo:
       "Our content creation area also fosters teamwork, which frequently results in collaborative spaces where tech professionals, novices, and creators may collaborate on projects, exchange knowledge, and generate fresh concepts. and some of our equipments are: ",
     textThree: [
-      "- Studio Equipment: green screens, cameras, lighting, and microphones for video production.",
-      "- Audio equipment: mixing consoles, soundproofing, and top-notch microphones for voice-over and podcasting.",
-      "- Editing Software: Computers equipped with graphic design, audio editing, and video editing software,",
+      {
+        title: "Studio Equipment:",
+        text: " green screens, cameras, lighting, and microphones for video production.",
+      },
+      {
+        title: "Audio equipment:",
+        text: "Mixing consoles, soundproofing, and top-notch microphones for voice-over and podcasting.",
+      },
+      {
+        title: "Editing Software:",
+        text: "Computers equipped with graphic design, audio editing, and video editing software,",
+      },
     ],
   },
   {
     image: "/images/digitalSkill.png",
     title: "Digital Skills Training",
-    textOne:
-      "Here at Bloombyte hub, we offer a variety of digital skills training ",
-    textTwo:
-      "We teach Design skills like graphics design by making use of adobe photoshop, CorelDraw",
+    textOne: "Here at Bloombyte hub, we offer a variety of digital skills training ",
+    textTwo: "We teach Design skills like graphics design by making use of adobe photoshop, CorelDraw",
     textThree: [
-      "- Basic Computer Skills: Teaching how to use operating systems, software applications, and internet browsing.",
-      "- Software Proficiency: Training in specific software programs like Microsoft Office, Google Workspace, or industry-specific tools.",
-      "- Data Management: Understanding how to handle data, including data entry, analysis, and basic database management.",
-      "- Programming and Coding: For more advanced training, this includes learning programming languages and development tools.",
+      {
+        title: "Basic Computer Skills:",
+        text: " Teaching how to use operating systems, software applications, and internet browsing.",
+      },
+      {
+        title: "Software Proficiency:",
+        text: " Training in specific software programs like Microsoft Office, Google Workspace, or industry-specific tools.",
+      },
+      {
+        title: "Data Management:",
+        text: " Understanding how to handle data, including data entry, analysis, and basic database management.",
+      },
+      {
+        title: "Programming and Coding:",
+        text: " For more advanced training, this includes learning programming languages and development tools.",
+      },
     ],
   },
   {
@@ -119,11 +145,26 @@ export const services = [
     textOne: "At our hardware workshop, we offer the following services:",
     textTwo: "Building and developing hardware equipments like drones",
     textThree: [
-      "- Prototyping: Developing and testing physical prototypes of new tech products, devices, or components.",
-      "- Repair and Maintenance: Fixing and maintaining electronic hardware, which can be crucial for keeping tech infrastructure in working order.",
-      "- Learning and Training: Offering educational opportunities for individuals to learn about hardware design, electronics, and related skills.",
-      "- Innovation and Experimentation: Allowing for experimentation with new ideas and technologies, often facilitating innovation by providing access to advanced tools and materials.",
-      "- Collaboration: Serving as a collaborative space where engineers, developers, and other tech professionals can work together on hardware projects.",
+      {
+        title: "Prototyping:",
+        text: " Developing and testing physical prototypes of new tech products, devices, or components.",
+      },
+      {
+        title: "Repair and Maintenance:",
+        text: " Fixing and maintaining electronic hardware, which can be crucial for keeping tech infrastructure in working order.",
+      },
+      {
+        title: "Learning and Training:",
+        text: " Offering educational opportunities for individuals to learn about hardware design, electronics, and related skills.",
+      },
+      {
+        title: "Innovation and Experimentation:",
+        text: " Allowing for experimentation with new ideas and technologies, often facilitating innovation by providing access to advanced tools and materials.",
+      },
+      {
+        title: "Collaboration:",
+        text: " Serving as a collaborative space where engineers, developers, and other tech professionals can work together on hardware projects.",
+      },
     ],
   },
 ];

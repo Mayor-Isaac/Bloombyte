@@ -53,3 +53,32 @@
   font-size: 16px;
   line-height: 1.7;
 }
+
+.servicesText {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.servicesText div {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.even .servicesText div {
+  background-color: #0044ad;
+}
+
+.odd .servicesText div {
+  background-color: #fff;
+}
+
+.servicesText p {
+  width: 90%;
+}
+
+.servicesText span {
+  font-size: 18px;
+  font-weight: 700;
+}
