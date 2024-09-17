@@ -20,8 +20,8 @@ const Header = () => {
         <Image
           src="/images/bloombyte_horizontal.png"
           alt="Logo"
-          width={80}
-          height={25}
+          width={130}
+          height={35}
         />
         <div onClick={() => setMobile(!mobile)}>
           <Bars />
