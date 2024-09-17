@@ -13,6 +13,10 @@
   cursor: pointer;
 }
 
+.logo div {
+  display: none;
+}
+
 .meunLinks {
   display: flex;
   gap: 30px;
