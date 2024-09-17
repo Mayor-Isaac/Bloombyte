@@ -44,3 +44,45 @@
   font-family: unset;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .headContain {
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .headContain .meunLinks,
+  .headContain .headBtn {
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+
+  .meunLinks {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .headBtn button,
+  .headBtn,
+  .meunLinks a {
+    width: 100%;
+  }
+
+  .mobile .meunLinks,
+  .mobile .headBtn {
+    display: flex;
+  }
+
+  .logo div {
+    cursor: pointer;
+  }
+}
