@@ -42,3 +42,10 @@
   color: #ffffff;
   border: 1px solid rgb(80, 130, 221);
 }
+
+@media screen and (max-width: 768px) {
+  .pluginContain {
+    width: 100%;
+    padding: 60px 20px !important;
+  }
+}

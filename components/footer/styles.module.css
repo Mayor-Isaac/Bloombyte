@@ -104,3 +104,26 @@
   text-align: center;
   font-weight: 500;
 }
+
+@media screen and (max-width: 768px) {
+  .footerContainer {
+    padding: 80px 30px;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .footerIcons {
+    width: 100%;
+  }
+
+  .footerContact {
+    width: 100%;
+  }
+
+  .footerSubscribe {
+    width: 100%;
+  }
+  .footerIcons h1 {
+    font-size: 30px;
+  }
+}

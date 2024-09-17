@@ -1,41 +1,47 @@
 .teamSingleContainer {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    background: #FFFFFF;
-    border-radius: 20px;
-    box-shadow: 0px 1px 3px 1px #00000026, 0px 1px 2px 0px #0000004D;
-    padding: 16px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 1px 3px 1px #00000026, 0px 1px 2px 0px #0000004d;
+  padding: 16px;
 }
 
-.teamSingleContainer>h4 {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
+.teamSingleContainer > h4 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 .teamText {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .teamText div {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .teamText div p {
-    font-size: 12px;
-    /* line-height: 24px; */
-    font-weight: 400;
+  font-size: 12px;
+  /* line-height: 24px; */
+  font-weight: 400;
 }
 
 .teamText img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .teamSingleContainer {
+    width: 100%;
+  }
 }
