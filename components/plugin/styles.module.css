@@ -48,4 +48,12 @@
     width: 100%;
     padding: 60px 20px !important;
   }
+
+  .pluginContain h1 {
+    font-size: 30px;
+  }
+
+  .pluginContain h5 {
+    font-size: 14px;
+  }
 }

@@ -22,3 +22,12 @@
   text-decoration: none;
   color: #000;
 }
+
+@media screen and (max-width: 768px) {
+  .heroContain {
+    padding: 60px 20px;
+  }
+  .heroContain h1 {
+    font-size: 40px;
+  }
+}

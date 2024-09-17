@@ -30,4 +30,8 @@
   .teamContainer > div {
     flex-direction: column;
   }
+
+  .teamContainer h2 {
+    font-size: 30px;
+  }
 }

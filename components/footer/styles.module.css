@@ -124,6 +124,12 @@
     width: 100%;
   }
   .footerIcons h1 {
-    font-size: 30px;
+    font-size: 25px;
+  }
+  .footerContact h1 {
+    font-size: 25px;
+  }
+  .footerSubscribe h1 {
+    font-size: 25px;
   }
 }

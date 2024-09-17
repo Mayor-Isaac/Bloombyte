@@ -18,4 +18,9 @@ export const BackgroudStyled = styled.div<Props>`
   color: white;
   font-size: 24px;
   background-color: #222;
+
+  @media (max-width: 768px) {
+    height: 400px;
+    font-size: 17px;
+  }
 `;
