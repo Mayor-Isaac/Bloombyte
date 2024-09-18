@@ -91,8 +91,8 @@
 
   .counter {
     width: 100%;
-    flex-direction: column;
     gap: 20px;
+    justify-content: space-around;
     align-items: flex-start;
   }
 }

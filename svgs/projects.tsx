@@ -1,4 +1,5 @@
 import React from "react";
+import "../app/globals.css";
 
 const Projects = () => {
   return (
@@ -8,6 +9,7 @@ const Projects = () => {
         width="5em"
         height="5em"
         viewBox="0 0 32 32"
+        className="svgSize"
       >
         <path
           fill="#0044AD"

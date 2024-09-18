@@ -76,3 +76,21 @@
   cursor: pointer;
   padding: 14px 0px;
 }
+
+@media screen and (max-width: 768px) {
+  .contactBody {
+    padding: 60px 0px;
+    width: unset;
+    flex-direction: column-reverse;
+  }
+
+  .contactForm {
+    width: unset;
+    padding: 40px 20px;
+  }
+
+  .formImg {
+    width: 80%;
+    height: 80%;
+  }
+}

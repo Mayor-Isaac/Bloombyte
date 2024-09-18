@@ -32,7 +32,7 @@
   gap: 24px;
 }
 
-.pricingPlanSingle>h2 {
+.pricingPlanSingle > h2 {
   color: #0044ad;
   font-size: 30px;
   font-weight: 600;
@@ -68,4 +68,13 @@
   padding: 14px 0px;
   border: none;
   font-family: unset;
+}
+
+@media screen and (max-width: 768px) {
+  .pricingPlanContainer {
+    padding: 60px 0px;
+    width: unset;
+    grid-template-columns: 2fr;
+    margin: 20px;
+  }
 }

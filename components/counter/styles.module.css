@@ -15,3 +15,13 @@
   color: #222;
   font-weight: 400;
 }
+
+@media screen and (max-width: 768px) {
+  .firstCount h1 {
+    font-size: 35px;
+  }
+
+  .firstCount h2 {
+    font-size: 15px;
+  }
+}

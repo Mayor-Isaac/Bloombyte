@@ -77,7 +77,8 @@ export const services = [
   {
     image: "/images/growth.png",
     title: "Co-Working Space",
-    textOne: "Tech pros and even newcomers, such as developers and designers, can work together in the coworking space Bloombyte Hub.",
+    textOne:
+      "Tech pros and even newcomers, such as developers and designers, can work together in the coworking space Bloombyte Hub.",
     textTwo: " Some benefits and advantages of our co-working space include:",
     textThree: [
       {
@@ -95,9 +96,10 @@ export const services = [
     ],
   },
   {
-    image: "/images/content.png",
+    image: "/images/bloom web.png",
     title: "Content Creation Space",
-    textOne: "Bloombyte Hub content creation area is furnished with the equipment and resources required to produce high-caliber material ",
+    textOne:
+      "Bloombyte Hub content creation area is furnished with the equipment and resources required to produce high-caliber material ",
     textTwo:
       "Our content creation area also fosters teamwork, which frequently results in collaborative spaces where tech professionals, novices, and creators may collaborate on projects, exchange knowledge, and generate fresh concepts. and some of our equipments are: ",
     textThree: [
@@ -118,8 +120,10 @@ export const services = [
   {
     image: "/images/digitalSkill.png",
     title: "Digital Skills Training",
-    textOne: "Here at Bloombyte hub, we offer a variety of digital skills training ",
-    textTwo: "We teach Design skills like graphics design by making use of adobe photoshop, CorelDraw",
+    textOne:
+      "Here at Bloombyte hub, we offer a variety of digital skills training ",
+    textTwo:
+      "We teach Design skills like graphics design by making use of Adobe Photoshop, CorelDraw",
     textThree: [
       {
         title: "Basic Computer Skills:",

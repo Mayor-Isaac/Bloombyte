@@ -1,4 +1,5 @@
 import React from "react";
+import "../app/globals.css";
 
 const User = () => {
   return (
@@ -8,6 +9,7 @@ const User = () => {
         width="5em"
         height="5em"
         viewBox="0 0 24 24"
+        className="svgSize"
       >
         <path
           fill="none"
