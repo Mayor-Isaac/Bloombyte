@@ -38,7 +38,7 @@ export const teamMembers = [
   },
   {
     name: "Prof. Mrs Folashade Dahunsi",
-    text: " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore beatae eveniet autem perferendis, culpa minus, rerum odio unde a quidem, harum repellat blanditiis doloribus corrupti pariatur repudiandae sed facilis laboriosam?",
+    text: " Prof. F. Dahunsi is a Principal Investigator at Smart Systems Lab, a competitive lab whose mission is to develop home-grown innovative solutions to problems in Nigeria. She also collaborates with BloomByte Hub by offering expertise and insights to its management.",
     position: "CEO",
     img: "/images/user.jpg",
   },

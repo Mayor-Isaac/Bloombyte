@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./styles.module.css";
 import { pricingData } from "@/utils/data";
 import { formatter } from "@/utils/formatter";
+import Link from "next/link";
 
 const PricingPlan = () => {
   return (
@@ -24,7 +25,9 @@ const PricingPlan = () => {
                 Weekends - <span>{formatter.format(items.weekends)}</span>
               </p>
             </div>
-            <button>Book a Session</button>
+            <Link href="https://wa.me/message/GZ3BTL22GI5CL1" target="_blank">
+              <button>Book a Session</button>
+            </Link>
           </div>
         );
       })}

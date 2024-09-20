@@ -6,6 +6,7 @@ import Location from "@/svgs/location";
 import Gmail from "@/svgs/gmail";
 import Phone from "@/svgs/phone";
 import Whatsapp from "@/svgs/whatsapp";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -24,10 +25,16 @@ const Footer = () => {
           <h1>Contact Us</h1>
           <div className={styles.contactOne}>
             <Location />
-            <p>
-              After Bridge, B11 Akaraki/Falowo Layout, Aule Rd, Opposite Cele
-              Junction, Off New Aule Road, Akure
-            </p>
+            <Link
+              href="https://maps.app.goo.gl/UqyTJV9RcyRCmrBQA"
+              target="_blank"
+              className={styles.link}
+            >
+              <p>
+                After Bridge, B11 Akaraki/Falowo Layout, Aule Rd, Opposite Cele
+                Junction, Off New Aule Road, Akure
+              </p>
+            </Link>
           </div>
           <div className={styles.contactOne}>
             <Gmail />
@@ -35,11 +42,11 @@ const Footer = () => {
           </div>
           <div className={styles.contactOne}>
             <Phone />
-            <p>0812 396 0422</p>
+            <p>+234 812 396 0422</p>
           </div>
           <div className={styles.contactOne}>
             <Whatsapp />
-            <p>0812 396 0422</p>
+            <p>+234 814 624 2567</p>
           </div>
         </div>
         <div className={styles.footerSubscribe}>

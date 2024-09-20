@@ -41,7 +41,7 @@
 .colOne button:hover {
   background-color: transparent;
   border: 1px solid #0044ad;
-  color: #222;
+  color: #0044ad;
   transition: all 0.5s ease;
 }
 

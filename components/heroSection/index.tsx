@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BackgroudStyled } from "@/styles/slider-style";
+import Link from "next/link";
 
 const HeroSection = () => {
   const settings = {
@@ -24,6 +25,7 @@ const HeroSection = () => {
       text: "Creative and Innovative Workspace",
       body: "Innovation Juction: Where Tech Ideas Coverage",
       button: "Learn More",
+      btnLink: "/about",
     },
     {
       id: 2,
@@ -31,6 +33,7 @@ const HeroSection = () => {
       text: "Fostering Development",
       body: "Transforming Technology Byte by Byte",
       button: "Contact Us",
+      btnLink: "/contact",
     },
     {
       id: 3,
@@ -38,6 +41,7 @@ const HeroSection = () => {
       text: "Colaborative Workspace",
       body: "A Hub For Tech Brillance, Where Minds Flourish",
       button: "Book A space",
+      btnLink: "/pricing",
     },
   ];
 
@@ -49,7 +53,9 @@ const HeroSection = () => {
             <div className={styles.slidercontent}>
               <h2>{slide.text}</h2>
               <p>{slide.body}</p>
-              <button>{slide.button}</button>
+              <Link href={slide.btnLink} className={styles.btnLink}>
+                <button>{slide.button}</button>
+              </Link>
             </div>
           </BackgroudStyled>
         );

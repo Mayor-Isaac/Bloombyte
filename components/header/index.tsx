@@ -17,12 +17,14 @@ const Header = () => {
       }
     >
       <div className={styles.logo}>
-        <Image
-          src="/images/bloombyte_horizontal.png"
-          alt="Logo"
-          width={130}
-          height={35}
-        />
+        <Link href="/">
+          <Image
+            src="/images/bloombyte_horizontal.png"
+            alt="Logo"
+            width={130}
+            height={30}
+          />
+        </Link>
         <div onClick={() => setMobile(!mobile)}>
           <Bars />
         </div>
@@ -41,7 +43,9 @@ const Header = () => {
         })}
       </div>
       <div className={styles.headBtn}>
-        <button>Book A Workspace</button>
+        <Link href="/pricing">
+          <button>Book A Workspace</button>
+        </Link>
       </div>
     </div>
   );

@@ -4,6 +4,7 @@ import Projects from "@/svgs/projects";
 import Counter from "../counter";
 import Image from "next/image";
 import User from "@/svgs/user";
+import Link from "next/link";
 
 const GrowthSection = () => {
   return (
@@ -28,7 +29,9 @@ const GrowthSection = () => {
                 <Counter count={20} text="Projects" />
               </div>
             </div>
-            <button className={styles.growthBtn}>Learn More</button>
+            <Link href="/about">
+              <button className={styles.growthBtn}>Learn More</button>
+            </Link>
           </div>
           <div className={styles.growthImg}>
             <Image

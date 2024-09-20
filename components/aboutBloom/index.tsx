@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./styles.module.css";
 import { aboutBloom } from "@/utils/data";
 import Image from "next/image";
+import Link from "next/link";
 
 const AboutBloom = () => {
   return (
@@ -49,11 +50,13 @@ const AboutBloom = () => {
             structures in place that ensure that we are always at the top of our
             game when it comes to imparting knowledge.
           </p>
-          <button className={styles.textBtn}>Contact Us</button>
+          <Link href="/contact">
+            <button className={styles.textBtn}>Contact Us</button>
+          </Link>
         </div>
         <div className={styles.colTwo}>
           <Image
-            src="/images/growth.png"
+            src="/images/bloombytehub.png"
             width={500}
             height={600}
             alt="image"

@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./styles.module.css";
 import Image from "next/image";
 import { codeKidzData } from "@/utils/data";
+import Link from "next/link";
 
 const CodeKidzs = () => {
   return (
@@ -23,11 +24,13 @@ const CodeKidzs = () => {
             foundation in Bloombyte&apos;s courses, students are well-prepared
             to pursue successful careers and achieve their personal goals.
           </p>
-          <button>Get in Touch</button>
+          <Link href="/contact">
+            <button>Get in Touch</button>
+          </Link>
         </div>
         <div className={styles.colTwo}>
           <Image
-            src="/images/growth.png"
+            src="/images/bloom01.png"
             width={500}
             height={600}
             alt="image"
