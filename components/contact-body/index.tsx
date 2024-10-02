@@ -29,7 +29,7 @@ const ContactBody = () => {
       name: e.name,
       subject: e.subject,
       from: e.email,
-      body: `<p>Hi Temitope, ${e.name} sent you a message</p>
+      body: `<p>Hi Bloombyte, ${e.name} sent you a message</p>
               <p>${e.messages}</p>`,
     };
 
