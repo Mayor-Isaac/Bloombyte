@@ -32,7 +32,7 @@ export const menuLinks = [
 export const teamMembers = [
   {
     name: "Adekunle Lawal",
-    text: " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore beatae eveniet autem perferendis, culpa minus, rerum odio unde a quidem, harum repellat blanditiis doloribus corrupti pariatur repudiandae sed facilis laboriosam?",
+    text: "Mr Lawal is the dedicated IT instructor at Bloombyte Techhub, where he not only shares his expertise as a talented game developer but also oversees the smooth operation of the hub. His passion for technology and innovation drives him to mentor and inspire the next generation of tech enthusiasts.",
     position: "ICT Instructor I",
     img: "/images/user.jpg",
   },
@@ -40,12 +40,6 @@ export const teamMembers = [
     name: "Prof. Mrs Folashade Dahunsi",
     text: " Prof. F. Dahunsi is a Principal Investigator at Smart Systems Lab, a competitive lab whose mission is to develop home-grown innovative solutions to problems in Nigeria. She also collaborates with BloomByte Hub by offering expertise and insights to its management.",
     position: "CEO",
-    img: "/images/user.jpg",
-  },
-  {
-    name: "Sarah Eneiremen",
-    text: " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore beatae eveniet autem perferendis, culpa minus, rerum odio unde a quidem, harum repellat blanditiis doloribus corrupti pariatur repudiandae sed facilis laboriosam?",
-    position: "ICT Instructor II",
     img: "/images/user.jpg",
   },
 ];
